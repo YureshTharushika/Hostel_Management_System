@@ -1,0 +1,32 @@
+Create the warden first using postmen===================
+
+http://localhost:8000/api/wardensignup
+
+{
+    "first_name":"Nihal",
+    "last_name":"Perera",
+    "gender":"male",
+    "email":"hosteladmin@uwu.ac.lk",
+    "password":"123456789",
+    "password_confirmation":"123456789"
+}
+
+ENV====================================================
+.env.local
+REACT_APP_LOCAL_BACKEND=http://localhost:8000/
+REACT_APP_FRONTEND=http://localhost:3000/
+
+
+Warden================================================
+email: hosteladmin@uwu.ac.lk
+password: 12345678
+
+
+Subwarden=============================================
+email: kamal@uwu.ac.lk
+password: 12345678
+
+
+Student===============================================
+email: cst18044@std.uwu.ac.lk
+password: 12345678
